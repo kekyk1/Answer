@@ -1,0 +1,14 @@
+# Все тесты из папки tests
+pytest
+
+# Только быстрые тесты (исключая slow)
+pytest -m "not slow"
+
+# С генерацией отчёта JUnit XML
+pytest --junitxml=reports/test-results.xml
+
+# С пользовательской командой (запуск медленных)
+pytest --runslow
+
+# Проверка игнорирования предупреждений
+pytest -W error::DeprecationWarning  # Должно игнорироваться

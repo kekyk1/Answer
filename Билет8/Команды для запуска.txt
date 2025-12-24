@@ -1,0 +1,11 @@
+1. Только быстрые
+pytest -m quick test_shop.py -v
+
+2. Кроме медленных
+pytest -m "not slow" test_shop.py -v
+
+3. Только с авторизацией 
+pytest -m auth test_shop.py -v
+
+4. Только критические
+pytest -m critical test_shop.py -v

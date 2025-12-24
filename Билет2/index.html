@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <title>Калькулятор чаевых</title>
+    <!-- Подключаем файл стилей -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Калькулятор чаевых</h1>
+        
+        <div class="input-group">
+            <label for="billAmount">Сумма счета ($):</label>
+            <input type="number" id="billAmount" placeholder="Введите сумму">
+        </div>
+
+        <div class="input-group">
+            <label for="tipPercentage">Процент чаевых (%):</label>
+            <input type="number" id="tipPercentage" placeholder="Например, 15" value="15">
+        </div>
+
+        <button id="calculateBtn">Рассчитать</button>
+
+        <div class="result" id="result">
+            <!-- Сюда будет выводиться результат -->
+        </div>
+    </div>
+
+    <!-- Подключаем файл со скриптом -->
+    <script src="script. js"></script>
+</body>
+</html>

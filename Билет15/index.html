@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таймер обратного отсчета</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Таймер обратного отсчета</h1>
+        
+        <div class="time-display" id="timeDisplay">
+            05:00
+        </div>
+        
+        <div class="controls">
+            <div class="input-group">
+                <input type="number" id="minutesInput" min="1" max="60" value="5" placeholder="Минуты">
+                <span>минут</span>
+            </div>
+            
+            <div class="buttons">
+                <button id="startBtn">Старт</button>
+                <button id="pauseBtn" disabled>Пауза</button>
+                <button id="resetBtn">Сброс</button>
+            </div>
+        </div>
+        
+        <div class="status" id="status">Готов</div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
