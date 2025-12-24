@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Билет1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fdd4ad0883e170fd77d419dc4478ecbb528f37df")]
 [assembly: System.Reflection.AssemblyProductAttribute("Билет1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Билет1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fBEb1inWX0s=",
+  "dgSpecHash": "VgfkEgNxlsU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\kirbu\\OneDrive\\Рабочий стол\\билеты\\ПМ 06 подготовочные проекты\\Билет1\\Билет1\\Билет1.csproj",
+  "projectFilePath": "D:\\GitHub\\Answer\\Логирование C# 1\\Билет1\\Билет1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kirbu\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.0\\microsoft.extensions.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\kirbu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0\\microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
